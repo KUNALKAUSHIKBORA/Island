@@ -110,16 +110,15 @@ body {
   overflow: hidden; /* Removing this will break the effects */
 }
 
-/* Colorize-zoom Container */
-.img-hover-zoom--colorize img {
-  transition: transform .5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
+/* Quick-zoom Container */
+.img-hover-zoom--quick-zoom img {
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
 }
 
 /* The Transformation */
-.img-hover-zoom--colorize:hover img {
-  filter: grayscale(0);
-  transform: scale(1.1);
+.img-hover-zoom--quick-zoom:hover img {
+  transform: scale(2);
 }
 
 .footer {
