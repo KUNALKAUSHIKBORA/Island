@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+}
+
+
+
+.carousel-item img {
+	height: 50vh;
+	top: 10%;
+	width: 100%;
+	margin: auto;
+}
+.carousel-item .block1 {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	box-shadow: inset 0px 0px 10px 10px white;
+}
+
+
+.navbar-brand {
+	font-size: 3vw;
+	letter-spacing: 2px;
+	padding-top: 5px;
+	padding-left: 30px;
+	text-transform: uppercase;
+}
+
+.logo1 {
+	color: #1597bb;
+	font-family: "Poppins", serif;
+}
+
+.logo2 {
+	color: #000000;
+	font-family: "Licorice", serif;
+}
+
+#menubuttons a {
+   color: #1597bb;
+   font-weight: bold;
+   font-family: "Poppins", serif;
+   text-decoration: none;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   padding: 1em 1em;
+}
+
+.row {
+	margin-top: 10px;
+}
+
+
+.middle-col h1 {
+	padding: 0 20px 0 20px;
+	text-align: center;
+	margin: 0;
+}
+
+.title1 {
+	font-family: 'Licorice', serif;
+	font-size: 4.4vw;
+	padding-right: 20px;
+}
+.tothe {
+	font-size: 2.4vw;
+}
+.nameLogo {
+	font-family: "Poppins", serif;
+	color: #1597bb;
+	font-size: 4.4vw;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.title3 {
+	font-family: 'Licorice', serif;
+	color: #000000;
+	font-size: 4.4vw;
+}
+
+#gallery {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.photo {
+	margin: 1.5px;
+	height: auto;
+}
+
+.photo img {
+	width: 100%;
+	height: inherit;
+}
+
+.img-hover-zoom {
+  height: 300px; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+}
+
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	color: #000;
+	background: #fff;
+}
+
+.footer hr {
+  color: #000;
+}
+
+.icons {
+	cursor: pointer;
+	padding-bottom: 18px;
+}
+
+.icons .fab {
+	color: #000;
+	padding: 20px;
+	font-size: 2em;
+	transition: transform .5s;
+}
+.icons .fab:hover {
+	transform: scale(1.9);
+}
+.icons .fas {
+	color: #000;
+	padding: 20px;
+	font-size: 2em;
+	transition: transform .5s;
+}
+.icons .fas:hover {
+	transform: scale(1.9);
+}
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1155 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1155 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1155 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1em;
+  padding: 0;
+}
+.snip1155 a {
+  display: inline-block;
+  padding: 0.5em 17px;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1155 a:before {
+  left: 20%;
+  right: 20%;
+  top: 50%;
+  content: '';
+  border-left: 12px solid #9b59b6;
+  border-right: 12px solid #9b59b6;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 3px;
+  opacity: 0;
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1155 a:hover,
+.snip1155 .current a {
+  color: #ffffff;
+}
+.snip1155 a:hover:before,
+.snip1155 .current a:before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+/* food */
+#food {
+  margin-top: 100px;
+}
+.foodItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2px;
+  padding: 2px; 
+}
+#food h1 {
+  font-family: "Licorice", serif;
+  color: #330000;
+  font-size: 4.6vw;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 300;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.snip1383 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  max-height: 220px;
+  width: 100%;
+  color: #07090c;
+  text-align: left;
+  background-color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 10px;
+}
+figure.snip1383 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1383 img {
+  width: 100%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  backface-visibility: hidden;
+}
+figure.snip1383 figcaption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: scale(0.5) translate(0%, -50%);
+  transform: scale(0.5) translate(0%, -50%);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  z-index: 1;
+  opacity: 0;
+  padding: 0 30px;
+}
+figure.snip1383 h3,
+figure.snip1383 p {
+  line-height: 1.5em;
+}
+figure.snip1383 h3 {
+  margin: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+figure.snip1383 p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+
+figure.snip1383:hover img,
+figure.snip1383.hover img {
+  -webkit-animation: snip1383 0.45s linear forwards;
+  animation: snip1383 0.45s linear forwards;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+figure.snip1383:hover figcaption,
+figure.snip1383.hover figcaption {
+  -webkit-transform: scale(1) translate(0, -50%);
+  transform: scale(1) translate(0, -50%);
+  opacity: 1;
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+@-webkit-keyframes snip1383 {
+  50% {
+    -webkit-transform: scale(0.8) translateY(0%);
+    transform: scale(0.8) translateY(0%);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateY(150%);
+    transform: scale(0.8) translateY(150%);
+    opacity: 0.5;
+  }
+}
+@keyframes snip1383 {
+  50% {
+    -webkit-transform: scale(0.8) translateY(0%);
+    transform: scale(0.8) translateY(0%);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateY(150%);
+    transform: scale(0.8) translateY(150%);
+    opacity: 0.5;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1000px) and (min-width: 492px) {
+  /*.menu {
+    display: none;
+  }*/
+  .header img {
+    height: auto;
+  }
+  #gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  #menubuttons a {
+    font-size: 2.5vw;
+  }
+  .foodItem {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  }
+}
+
+@media (max-width: 491px) {
+  #gallery {
+    grid-template-columns: 1fr;
+  }
+  #menubuttons a {
+    font-size: 2.5vw;
+  }
+  .foodItem {
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  }
+  /*.menu {
+    display: none;
+  }*/
+}
