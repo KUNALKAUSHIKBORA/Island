@@ -337,28 +337,32 @@ figure.snip1383.hover figcaption {
   }
   #gallery {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding: 50px;
   }
   #menubuttons a {
     font-size: 2.5vw;
   }
   .foodItem {
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 50px;
+  padding: 50px;
   }
 }
 
 @media (max-width: 491px) {
   #gallery {
     grid-template-columns: 1fr;
+    grid-gap: 50px;
+    padding: 50px;
   }
   #menubuttons a {
     font-size: 2.5vw;
   }
   .foodItem {
   grid-template-columns: 1fr;
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 60px;
+  padding: 60px;
   }
   /*.menu {
     display: none;
