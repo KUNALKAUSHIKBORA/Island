@@ -6,11 +6,13 @@
 	box-sizing: border-box;
 }
 
-
+.middle {
+  overflow-x: hidden;
+}
 
 
 .carousel-item img {
-	height: 50vh;
+	height: 80vh;
 	top: 10%;
 	width: 100%;
 	margin: auto;
@@ -117,13 +119,15 @@
 
 /* The Transformation */
 .img-hover-zoom--quick-zoom:hover img {
-  transform: scale(2);
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .footer {
 	width: 100%;
 	text-align: center;
-	padding: 30px 0;
+	padding-top: 0;
+  padding-bottom: 0;
 	color: #000;
 	background: #fff;
 }
@@ -216,12 +220,16 @@
 /* food */
 #food {
   margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #ffffff;
 }
 .foodItem {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 2px;
-  padding: 2px; 
+  grid-gap: 10px;
+  padding: 10px; 
 }
 #food h1 {
   font-family: "Licorice", serif;
@@ -239,7 +247,7 @@ figure.snip1383 {
   max-height: 220px;
   width: 100%;
   color: #07090c;
-  text-align: left;
+  text-align: center;
   background-color: #ffffff;
   font-size: 16px;
   margin: 0;
